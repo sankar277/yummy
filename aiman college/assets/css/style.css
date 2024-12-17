@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    overflow-x: hidden;
+}
+.headingrole{
+    background-color: green;
+    color: aliceblue;
+    padding: 10px;
+   
+}
+.headingrole a{
+  
+    color: aliceblue;
+}
+.title img{
+    height: 500px;
+    width: 100%;
+    opacity: 0px;
+}
+.text{
+    border: 2px solid green;
+    background-image: linear-gradient(to right,#32b874,#4cad2f);
+    height: 200px;
+    width: 300px;
+}
+texts{
+    top: 200px;
+    position: relative;
+}
+.a{
+   top: 50px;
+    position: absolute;
+    z-index: 3;
+}
+.aa{
+   
+    height: 150px;
+    width: 370px;
+    background-image: linear-gradient(to left,#32b874,#4aad31);
+    position: relative;
+    top: 200px;
+    right: 70px;
+    right: 40px;
+    border-radius: 20px;
+}
+h1{
+    color: white;
+}
+.forst{
+    height: 500px;
+    width: 100%;
+}
+img{
+    border-radius: 10px;
+}
+.about{
+    
+    position: relative;
+    top: 300px;
+}
+.us a{
+   text-decoration: none; 
+   margin-left: 20px;
+   color: #000000;
+   font-weight: 600;
+   
+}
+.us a:hover{
+    border-bottom: #32b874 2px solid;
+}
+.USA img{
+    height: 200px;
+}
+.overall{
+    top: 300px;
+    position: relative;
+}
+.overall h1{
+    color: #000000;
+}
+.news{
+    position: relative;
+    color: #000000;
+    top: 300px;
+}
+.kj button{
+background-image:linear-gradient(to right,#e3eee5,#58af34);
+padding: 5px 48px;
+border-radius: 10px;
+}
+.ALL{
+    top: 350px;
+    position: relative;
+}
+.details{
+    padding: 90px;
+    background-image: linear-gradient(to right,#48af3a,#39b664);
+    color: whitesmoke;
+    text-align: center;
+}
+.details i{
+   font-size: 50px;
+   top: -10px;
+   position: relative;
+}
+/* ------------------------campus gallery------------------------------------------------------------------------- */
+video{
+    position: relative;
+   
+}
+/* ............................... */
+.campuss video{
+  margin: 200px;
+  width: 100%;
+  position: relative;
+    
+}
+.campuss{
+    top: 400px;
+    position: relative;
+}
+.list-group h4{
+    background-color: #000000;
+    color: whitesmoke;
+}
+.list-group-item{
+    width: 350px;
+    height: 235px;
+    color: #000000;
+}
+.courses{
+    top: 500px;
+    position: relative;
+    background-image: linear-gradient(to right,#354196,#6c7ad7);
+    padding: 30px;
+    color: whitesmoke;
+}
+.activities h1{
+    top: 600px;
+    position: relative;
+    color: red;
+}
+/* ========================================= */
+.activiti-card{
+    top: 650px;
+    position: relative;
+}
+.jy img{
+    width: 350px;
+    height: 300px;
+}
+.read{
+    background-image: linear-gradient( to right,#6d79cc,#202b7c);
+    
+}
+.reads{
+    border-bottom: 5px solid #066931;
+    border-radius: 10px;
+}
+.events-last{
+    position: relative;
+    top: 700px;
+}
+.navbar-brand img{
+    width: 100%;
+}
+.oh{
+  
+}
+@media(max-width:600px){
+    .aid{
+       gap: 100px;
+       width: 100px;
+      
+    }
+}
